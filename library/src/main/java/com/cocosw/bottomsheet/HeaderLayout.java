@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
 
-class HeaderLayout extends FrameLayout {
+public class HeaderLayout extends FrameLayout {
     private int mHeaderWidth = 1;
 
 

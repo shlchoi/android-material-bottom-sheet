@@ -57,9 +57,9 @@ import java.util.ArrayList;
 
 /**
  * One way to present a set of actions to a user is with bottom sheets, a sheet of paper that slides up from the bottom edge of the screen. Bottom sheets offer flexibility in the display of clear and simple actions that do not need explanation.
- * <p/>
+ * <p></p>
  * https://www.google.com/design/spec/components/bottom-sheets.html
- * <p/>
+ * <p></p>
  * Project: BottomSheet
  * Created by Kai Liao on 2014/9/21.
  */

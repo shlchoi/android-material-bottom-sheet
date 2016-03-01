@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * A helper class,
- * <p/>
+ * <p></p>
  * Project: BottomSheet
  * Created by LiaoKai(soarcn) on 2015/7/18.
  */
@@ -23,7 +23,7 @@ public class BottomSheetHelper {
     /**
      * Create a BottomSheet Builder for creating share intent chooser.
      * You still need to call show() to display it like:
-     * <p/>
+     * <p></p>
      * Intent sharingIntent = new Intent(Intent.ACTION_SEND);
      * shareIntent.setType("text/plain");
      * shareIntent.putExtra(Intent.EXTRA_TEXT, "hello");

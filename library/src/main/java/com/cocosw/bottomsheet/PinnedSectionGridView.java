@@ -25,7 +25,7 @@ import android.widget.GridView;
 /**
  * ListView capable to pin views at its top while the rest is still scrolled.
  */
-class PinnedSectionGridView extends GridView {
+public class PinnedSectionGridView extends GridView {
 
 
     // -- class fields

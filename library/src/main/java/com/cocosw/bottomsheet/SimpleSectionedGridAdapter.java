@@ -4,6 +4,7 @@ package com.cocosw.bottomsheet;
 import java.util.Arrays;
 import java.util.Comparator;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.DataSetObserver;
 import android.text.TextUtils;
@@ -80,6 +81,8 @@ class SimpleSectionedGridAdapter extends BaseAdapter{
         });
     }
 
+     //the methods in question are added in PinnedSectionGridView
+    @SuppressLint("NewApi")
     public void setGridView(GridView gridView){
         if(!(gridView instanceof PinnedSectionGridView)){
             throw new IllegalArgumentException("Does your grid view extends PinnedSectionGridView?");
