@@ -456,6 +456,7 @@ public class BottomSheet extends Dialog implements DialogInterface {
         setListLayout();
     }
 
+    @TargetApi(19)
     private void showFullItems() {
         actions = fullMenuItem;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
@@ -506,7 +507,7 @@ public class BottomSheet extends Dialog implements DialogInterface {
         list.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {
-                if (Build.VERSION.SDK_INT < 16) {
+                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
                     //noinspection deprecation
                     list.getViewTreeObserver().removeGlobalOnLayoutListener(this);
                 } else {
